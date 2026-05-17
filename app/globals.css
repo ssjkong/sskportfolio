@@ -399,6 +399,7 @@ button { font: inherit; cursor: pointer; }
   .gate__title { font-size: 28px; }
   .gate__form  { flex-direction: column; }
   .gate__form .btn { width: 100%; }
+  .gate__input { flex: none; width: 100%; height: 48px; }
 }
 
 /* ─── Lock pill (on project cards) ──────────────── */
