@@ -7,7 +7,7 @@ const dmMono  = DM_Mono ({ subsets: ["latin"], weight: ["400","500"],       styl
 const bitter  = Bitter  ({ subsets: ["latin"], weight: ["400","500"],       style: ["normal","italic"], variable: "--font-bitter"   });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ssk.design"),
+  metadataBase: new URL("https://sskportfolio.com"),
   title: "Sharon S Kong — Product Designer",
   description: "Design leader and strategist specializing in complex systems, design systems, and teams. Based in the SF Bay Area.",
   openGraph: {
