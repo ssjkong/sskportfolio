@@ -384,7 +384,7 @@ button { font: inherit; cursor: pointer; }
 .gate__sub     { font-family: "DM Sans"; font-weight: 400; font-size: 16px; color: var(--colors-ink-soft); margin-bottom: 8px; }
 .gate__form    { display: flex; gap: 12px; width: 100%; max-width: 440px; margin-top: 16px; }
 .gate__input {
-  flex: 1; height: 48px; padding: 0 20px;
+  flex: 1; height: 48px; min-height: 48px; padding: 0 20px;
   border-radius: 99px; border: 1.5px solid var(--colors-cream-dark);
   background: #fff;
   font-family: "DM Mono"; font-weight: 500; font-size: 16px; color: var(--colors-ink);
