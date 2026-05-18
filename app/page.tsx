@@ -68,7 +68,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={60}>
               <h1 className="t-h1" style={{ maxWidth: 720 }}>
-                Hi there –– I&apos;m Sharon, a hands-on design leader specializing in the intersection of systems, strategy, and people.
+                Hi there ––<br />I&apos;m Sharon, a hands-on design leader specializing in the intersection of systems, strategy, and people.
               </h1>
             </Reveal>
             <Reveal delay={120}>
