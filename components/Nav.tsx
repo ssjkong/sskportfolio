@@ -7,7 +7,7 @@ import { useState } from "react";
 const LINKS = [
   { href: "/about",    label: "About"      },
   { href: "/approach", label: "Leadership" },
-  // { href: "/workshop", label: "Workshop"   },
+  { href: "/workshop", label: "Workshop"   },
 ];
 
 const IconMenu = () => (

@@ -143,7 +143,7 @@ export default function Home() {
 
           <hr className="divider" style={{ margin: "56px 0" }} />
 
-          {/* Workshop — uncomment to restore
+          {/* Workshop */}
           <Reveal>
             <section style={{ display: "flex", flexDirection: "column", gap: 16 }}>
               <h2 className="t-h2">Workshop</h2>
@@ -160,7 +160,6 @@ export default function Home() {
           </Reveal>
 
           <hr className="divider" style={{ margin: "56px 0" }} />
-          */}
 
           {/* Why I do what I do */}
           <Reveal>

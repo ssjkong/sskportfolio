@@ -57,7 +57,12 @@ export default function Workshop() {
                   <h2 className="lrow__title" style={{ marginTop: 4 }}>Personal Finance Calculator</h2>
                 </div>
                 <div className="wsh-card">
-                  <SwatchTile tone="rose" label="Coming soon" />
+                  <a href="https://fire-calculator-liard.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <div className="wsh-card__media" style={{ padding: 0 }}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src="/images/wkshp-calculator.png" alt="Personal Finance Calculator" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    </div>
+                  </a>
                   <div>
                     <div className="lrow__head" style={{ marginBottom: 4 }}>How much do I need in order to retire?</div>
                     <p className="lrow__body" style={{ fontSize: 16, lineHeight: 1.5 }}>
@@ -68,6 +73,12 @@ export default function Workshop() {
                   </div>
                   <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                     {["Claude Design", "Claude Code"].map((t) => <span key={t} className="tag">{t}</span>)}
+                  </div>
+                  <div>
+                    <a href="https://fire-calculator-liard.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn--tertiary">
+                      <span className="t-btn" style={{ fontSize: 18 }}>View project</span>
+                      <svg className="icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
                   </div>
                 </div>
               </div>
