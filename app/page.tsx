@@ -78,7 +78,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={180}>
               <a
-                href="https://drive.google.com/file/d/1xyd40F2paaCc_pZjyZKCjXzNiocPlBTW/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1xyd40F2paaCc_pZjyZKCjXzNiocPlBTW/view?usp=sharing"
                 target="_blank" rel="noopener noreferrer"
                 className="btn btn--primary" style={{ alignSelf: "flex-start" }}
               >
