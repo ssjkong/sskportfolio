@@ -74,7 +74,7 @@ export default function About() {
             <Reveal delay={120}>
               <div style={{ marginTop: 8, display: "flex", gap: 16, flexWrap: "wrap" }}>
                 <a
-                  href="https://drive.google.com/file/d/1ZUmjHHXIQHUr-spDsd5QkEsiNBQCx5sn/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ew9ETwD7JIS_YvBtc0vec6AwzAAMTONt/view?usp=drive_link"
                   target="_blank" rel="noopener noreferrer"
                   className="btn btn--primary btn--lg"
                 >
